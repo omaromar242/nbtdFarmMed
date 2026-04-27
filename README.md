@@ -20,13 +20,13 @@ end
 -- --- Main Automation Sequence ---
 
 -- 1. Initial Game Setup
-task.wait(5)
+task.wait(6)
 events.Ready:FireServer()
 
-task.wait(3)
+task.wait(4)
 events.Gamemode:FireServer("Medium")
 
-task.wait(4)
+task.wait(5)
 events.InitChangeSpeed:FireServer(2)
 
 -- 2. Place First Tower (1x1x1x1)
